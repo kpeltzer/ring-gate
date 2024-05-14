@@ -35,7 +35,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/your-image-name:latest
+          tags: ghcr.io/${{ github.repository_owner }}/ring-gate:latest
 
       - name: Verify the image
-        run: docker run --rm ghcr.io/${{ github.repository_owner }}/your-image-name:latest
+        run: docker run --rm ghcr.io/${{ github.repository_owner }}/ring-gate:latest
