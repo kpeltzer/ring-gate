@@ -1,6 +1,6 @@
 # Ring Gate Sensor Monitor
 
-This repository a long-running script for monitoring a Ring contact sensor. It is designed to alert users via webhook when the sensor (for me, an outdoor gate sensor) remains open for longer than a specified time frame.
+This repository is a simple long-running script for monitoring a Ring contact sensor. It is designed to alert users via webhook when the sensor (for me, an outdoor gate sensor) remains open for longer than a specified time frame.
 
 ## Installation
 
