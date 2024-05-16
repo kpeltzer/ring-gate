@@ -4,7 +4,7 @@
 	"engines": {
 		"node": ">=21.0.0"
 	},
-	"description": "",
+	"description": "A simple script to monitor if a Ring contact sensor is left open.",
 	"main": "script.js",
 	"scripts": {
 		"build": "tsc",
@@ -12,8 +12,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "Ken Peltzer",
+	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^20.12.11",
 		"ts-node": "^10.9.2",
